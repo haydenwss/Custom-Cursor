@@ -1,0 +1,56 @@
+html, body, * {
+  cursor: none;
+}
+
+.app-container {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(56, 69, 76);
+}
+
+.border {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-style: solid;
+  border-color: white;
+  margin: 0 auto;
+  width: 80%;
+  height: 60%;
+  max-width: 2000px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-position: 50% 50%;
+  background-image: url('https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+}
+
+.text {
+  padding: 0% 10% 1% 10%;
+  font-family: 'Lora', serif;
+}
+
+.button {
+  border-style: solid;
+  border-color: white;
+  padding: 10px 20px;
+  border-radius: 05px;
+  background: transparent;
+  color: white;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
